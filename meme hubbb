@@ -26,6 +26,10 @@ function Keyboard()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
 end
 
+function infiniteyield()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end
+
 
 
 
@@ -66,6 +70,14 @@ MiscTab:AddButton({
       		Keyboard()
   	end    
 })
+
+MiscTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		infiniteyield()
+  	end    
+})
+
 
 
 
