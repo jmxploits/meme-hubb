@@ -1,0 +1,160 @@
+if game.PlaceId == 11346342371 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "meme hub", HidePremium = false, SaveConfig = true, ConfigFolder = "memerjsj"})
+
+-- Values
+getgenv().AuToSelI = true
+getgenv().AutoPutMemesinStorage = true
+
+
+-- Functionss
+function AutoSell()
+    while AuToSelI == true do
+        game:GetService("ReplicatedStorage").Events.MemeToStorage:FireServer()
+        wait(0.000000001)
+     end
+    end
+
+function AutoMemes()
+    while AutoPutMemesinStorage == true do
+        game:GetService("ReplicatedStorage").Events.MemeToStorage:FireServer()
+        wait(0.000000001)
+     end
+    end
+
+
+
+
+
+
+-- Tabs and Toggles
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+MainTab:AddToggle({
+	Name = "Auto Sell",
+	Default = false,
+	Callback = function(Value)
+		getgenv().AuToSelI = Value
+    AutoSell()
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Auto put memes",
+	Default = false,
+	Callback = function(Value)
+		getgenv().AutoPutMemesinStorage = Value
+    AutoMemes()
+	end    
+})
+
+
+-- Credits
+
+local CTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local CSection = Tab:AddSection({
+	Name = "Made by silence wench#6534"
+})
+
+local CSection = Tab:AddSection({
+	Name = "this is my first script with an script hub so please enjoy!"
+})
+
+local CSection = Tab:AddSection({
+	Name = "I had fun with this project"
+})
+
+
+
+
+end
+OrionLib:Init()
+if game.PlaceId == 11346342371 then
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "meme hub", HidePremium = false, SaveConfig = true, ConfigFolder = "memerjsj"})
+
+-- Values
+getgenv().AuToSelI = true
+getgenv().AutoPutMemesinStorage = true
+
+
+-- Functionss
+function AutoSell()
+    while AuToSelI == true do
+        game:GetService("ReplicatedStorage").Events.MemeToStorage:FireServer()
+        wait(0.000000001)
+     end
+    end
+
+function AutoMemes()
+    while AutoPutMemesinStorage == true do
+        game:GetService("ReplicatedStorage").Events.MemeToStorage:FireServer()
+        wait(0.000000001)
+     end
+    end
+
+
+
+
+
+
+-- Tabs and Toggles
+local MainTab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+MainTab:AddToggle({
+	Name = "Auto Sell",
+	Default = false,
+	Callback = function(Value)
+		getgenv().AuToSelI = Value
+    AutoSell()
+	end    
+})
+
+MainTab:AddToggle({
+	Name = "Auto put memes",
+	Default = false,
+	Callback = function(Value)
+		getgenv().AutoPutMemesinStorage = Value
+    AutoMemes()
+	end    
+})
+
+
+-- Credits
+
+local CredTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+local CredSection = Tab:AddSection({
+	Name = "Made by silence wench#6534"
+})
+
+local CredSection = Tab:AddSection({
+	Name = "this is my first script with an script hub so please enjoy!"
+})
+
+local CredSection = Tab:AddSection({
+	Name = "I had fun with this project"
+})
+
+
+
+
+end
+OrionLib:Init()
