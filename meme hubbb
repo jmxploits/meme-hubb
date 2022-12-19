@@ -51,3 +51,7 @@ MainTab:AddToggle({
     AutoMemes()
 	end    
 })
+
+
+end
+OrionLib:Init()
