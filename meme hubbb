@@ -10,7 +10,7 @@ getgenv().AutoPutMemesinStorage = true
 -- Functionss
 function AutoSell()
     while AuToSelI == true do
-        game:GetService("ReplicatedStorage").Events.MemeToStorage:FireServer()
+        game:GetService("ReplicatedStorage").Events.UploadCurrentMemes:FireServer()
         wait(0.000000001)
      end
     end
@@ -51,6 +51,19 @@ MainTab:AddToggle({
     AutoMemes()
 	end    
 })
+
+local CTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+CTab:AddLabel("made by silence santa#6534")
+
+
+
+
+
 
 
 end
