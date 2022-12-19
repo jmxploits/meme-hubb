@@ -64,7 +64,8 @@ local CTab = Window:MakeTab({
 CTab:AddLabel("made by silence santa#6534")
 CTab:AddLabel("this is my first script with an script library so enjoy!")
 CTab:AddLabel("Had fun with this quick project")
-CTab:AddLabel("prob wont get updated sadly since this took way too long")
+CTab:AddLabel("prob wont get updated sadly since this took way too long"
 
 
 end
+OrionLib:Init()
