@@ -135,24 +135,15 @@ MainTab:AddToggle({
 
 -- Credits
 
-local CredTab = Window:MakeTab({
+local CTab = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 
-local CredSection = Tab:AddSection({
-	Name = "Made by silence wench#6534"
-})
-
-local CredSection = Tab:AddSection({
-	Name = "this is my first script with an script hub so please enjoy!"
-})
-
-local CredSection = Tab:AddSection({
-	Name = "I had fun with this project"
-})
-
+CTab:AddLabel("Made by #6534")
+CTab:AddLabel("This is my first script with an script hub so enjoy!")
+CTab:AddLabel("I had fun with this fast project")
 
 
 
