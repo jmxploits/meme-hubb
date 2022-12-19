@@ -22,7 +22,9 @@ function AutoMemes()
      end
     end
 
-
+function Keyboard()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
+end
 
 
 
@@ -52,6 +54,22 @@ MainTab:AddToggle({
 	end    
 })
 
+local MiscTab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+MiscTab:AddButton({
+	Name = "Keyboard for mobile",
+	Callback = function()
+      		Keyboard()
+  	end    
+})
+
+
+
+
 local CTab = Window:MakeTab({
 	Name = "Credits",
 	Icon = "rbxassetid://4483345998",
@@ -59,6 +77,7 @@ local CTab = Window:MakeTab({
 })
 
 CTab:AddLabel("made by silence santa#6534")
+CTab:AddLabel("this is my first script with an library!")
 
 
 
