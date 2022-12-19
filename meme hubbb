@@ -51,21 +51,3 @@ MainTab:AddToggle({
     AutoMemes()
 	end    
 })
-
-
--- Credits
-
-local CTab = Window:MakeTab({
-	Name = "Credits",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-CTab:AddLabel("made by silence santa#6534")
-CTab:AddLabel("this is my first script with an script library so enjoy!")
-CTab:AddLabel("Had fun with this quick project")
-CTab:AddLabel("prob wont get updated sadly since this took way too long"
-
-
-end
-OrionLib:Init()
