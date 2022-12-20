@@ -1,5 +1,5 @@
-if game:GetService("Players").LocalPlayer.UserId ~= 588028556 then
-  game:GetService("Players").LocalPlayer:Kick("man this my private script go the fuck away")
+if game.Players.LocalPlayer.UserId ~= 588028556 then
+  game:GetService("Players").LocalPlayer:Kick("Optional message here")
 end
 
 if game.UserId == 588028556
