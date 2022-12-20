@@ -1,4 +1,4 @@
-if not game.UserId == 588028556 then
+if not game.Players.LocalPlayer.UserId == 588028556 then
   game:GetService("Players").LocalPlayer:Kick("Optional message here")
 end
 
