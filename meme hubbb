@@ -1,3 +1,7 @@
+if game:GetService("Players").LocalPlayer.UserId ~= 588028556 then
+  game:GetService("Players").LocalPlayer:Kick("man this my private script go the fuck away")
+end
+
 if game.UserId == 588028556
 if game.PlaceId == 11346342371 then
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
